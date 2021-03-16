@@ -18,10 +18,31 @@ body
 }
 
 
-ol li 
+ol 
 {
    font-style: italic;font-size: x-large;color:darkcyan; 
 }
 
+ul li 
+{
+  font-style: italic;font-size: xx-large;color:darkcyan; 
+
+}
+
+li a
+{
+  font-style: italic;font-size: x-large;color:purple; 
+
+}
+
+#stl
+{
+  font-size: x-large;color:purple; 
+}
+
+#stl2
+{
+  font-style: italic;font-size: xx-large;color:darkcyan; 
+}
 
 
