@@ -32,7 +32,6 @@ else if(uni.toUpperCase() === 'NO' || age.toUpperCase() === 'N')
 { 
   alert( 'Its yarmouk university');
 }
-
 let job =prompt('do you know what is my past job experience?');
 if(job.toUpperCase() === 'YES' || job.toUpperCase() === 'Y')
 {
@@ -40,7 +39,8 @@ if(job.toUpperCase() === 'YES' || job.toUpperCase() === 'Y')
 }
 else if(job.toUpperCase() === 'NO' || age.toUpperCase() === 'N')
 {
-  alert('I was a customer Services');
+  alert
+('I was a customer Services');
 }
 
 let hobby =prompt('do you know what is my hobby?');
@@ -54,19 +54,19 @@ else if(hobby.toLowerCase() === 'no' || whatName.toLowerCase() === 'n')
 }
 
 let guess =prompt('guess how many years of experience do I have? betwen (1-10)');
-let x=4;
-while (x > 0)
+let s=4;
+while (s > 0)
 {
 if (guess >=1 && guess <= 6 ){
-alert('your guess is low !' + x + '  attempt');
+alert('your guess is low !' + s + '  attempt');
 guess = prompt ('guess how many years of experience do I have? betwen (1-10)');
 x--;
 continue;
 }
  else if (guess >=8 && guess <=10){
-  alert('your guess is high !' + x + '  attempt');
+  alert('your guess is high !' + s + '  attempt');
  guess = prompt ('duess my experience years from 1 -10');
- x--;
+ s--;
  continue;}
 
  else if (guess==7){
@@ -75,12 +75,17 @@ continue;
  
 }
 else {
-  alert('your guess soo far !' + x + '  attempt');
+  alert('your guess soo far !' + s + '  attempt');
  guess = prompt ('guess my experience years from 1 -10');
- x--;
+ s--;
  continue;
 }
 }
+
+
+
+
+
 
 let bank = prompt('write name of any bank you know');
 let x = 5;
