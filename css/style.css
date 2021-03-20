@@ -2,47 +2,38 @@ body
 {
     width:100% ;
     height:100% ;
-    background: url("/image/crop.jpg") no-repeat center fixed;
+    background: url("/image/black.jpg") no-repeat center fixed;
     background-size: cover;
 }
 
 
-#prg1
-{
-    color:darkslateblue
+h1.a {
+  font-family: 'Redressed', cursive;
+  color: darkmagenta;
+}
+h2.b{
+  font-family: 'Redressed', cursive;
+  color: darkslateblue;
 }
 
-#prg2
+
+li 
 {
-    font-size: xx-large ; color:palevioletred
+  font-family: 'Redressed', cursive;
+  color: darkmagenta;
+  font-size: xx-large;
 }
 
-
-ol 
-{
-   font-style: italic;font-size: x-large;color:darkcyan; 
+#stl{
+  font-family: 'Redressed', cursive;
+  color: darkslateblue;
+  font-size: x-large;
 }
 
-ul li 
-{
-  font-style: italic;font-size: xx-large;color:darkcyan; 
-
-}
-
-li a
-{
-  font-style: italic;font-size: x-large;color:purple; 
-
-}
-
-#stl
-{
-  font-size: x-large;color:purple; 
-}
-
-#stl2
-{
-  font-style: italic;font-size: xx-large;color:darkcyan; 
+#prg2{
+  font-family: 'Redressed', cursive;
+  color: darkslateblue;
+  font-size: xx-large;
 }
 
 
